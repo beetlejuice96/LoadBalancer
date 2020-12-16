@@ -1,12 +1,7 @@
 # LoadBalancer
 this is a load balancer built for the course of Parallel &amp; distrbuted Programming
 
-| Estado | Carga  | Acción
-| :------------- | :------------- | :-------------
-| **CRITICO**  | 80% - 100% | Se crean **nodosActivos/2** nuevos nodos (si es mayor a 1, sino 1)**
-| **ALERT** | 50% - 80% | Se crean **nodosActivos/4** nuevos nodos (si es mayor a 1, sino 1)**
-| **NORMAL** | 20% - 50% | -
-| **IDLE** | 0% - 20% | Se eliminan **nodosActivos/3** nodos (si es mayor a 1, sino 1)
+
 
 ## Pasos a seguir.
 
@@ -22,3 +17,10 @@ bash deploy-autiomation.sh
 - NodeMain
 - ServerMain
 - ClientGenerator
+
+| Estado | Carga  | Acción
+| :------------- | :------------- | :-------------
+| **CRITICO**  | 80% - 100% | Se crean **nodosActivos/2** nuevos nodos (si es mayor a 1, sino 1)**
+| **ALERT** | 50% - 80% | Se crean **nodosActivos/4** nuevos nodos (si es mayor a 1, sino 1)**
+| **NORMAL** | 20% - 50% | -
+| **IDLE** | 0% - 20% | Se eliminan **nodosActivos/3** nodos (si es mayor a 1, sino 1)
