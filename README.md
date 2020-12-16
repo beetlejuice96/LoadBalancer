@@ -7,7 +7,7 @@ this is a load balancer built for the course of Parallel &amp; distrbuted Progra
 
 1. ejecutar el archivo "deploy-automation.sh" que se encuentra en https://github.com/dpetrocelli/sdypp2020/tree/master/PI-UNLU/Clase8/rabbit de esta forma:
 
-bash deploy-autiomation.sh
+- bash deploy-autiomation.sh
 
 2. Definir los parametros de rabbit en `loadBalancer/src/main/java/resources/rabbitmq.properties` con sus datos.
 
